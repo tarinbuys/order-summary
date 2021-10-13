@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 23.4375rem;
+    height: 570px35.625rem;
+    border-radius: 5%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.photo {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+img {
+    border-radius: 5% 5% 0 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+.text {
+    text-align: center;
+}
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+p {
+    margin: 0.9375rem 2.5rem;
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+}
+.plan {
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    margin: 0.625rem 1.875rem;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+}
+.icon {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin: 0.3125rem;
+    padding-right: 0.625rem;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    margin: 0px;
+    font-size: 1rem;
+    padding-right: 4.375rem;
+    margin-top: 0.1875rem;
+}
+.year {
+    margin: 0px;
+    font-size: 0.75rem;
+}
+.change {
+    font-size: 0.875rem;
+    padding: 0.3125rem;
+    margin-top: 0.1875rem;
+    color: hsl(245, 75%, 52%);
+} 
+.change:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+button {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 0.625rem;
+    padding:  0.625rem 5rem;
+    margin: 0.625rem auto;
+    width: 19.6875rem;
+    align-items: center;
+}  
+.btn1 {
+    color: white;
+    background: hsl(245, 75%, 52%);
+}
+
+.btn1:hover {
+    background: hsl(224, 23%, 55%);
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn2 {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+}
+.btn2:hover {
+    font-weight: 700;
+    box-shadow: none;
+    cursor: pointer;
+}
